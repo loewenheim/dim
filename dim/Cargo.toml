@@ -81,3 +81,6 @@ nix = "0.20.0"
 
 [target.'cfg(windows)'.dependencies]
 zip = "0.5.10"
+
+[package.metadata.nix]
+build = true
