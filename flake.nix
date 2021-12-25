@@ -22,7 +22,7 @@
           ++ (with prev.pkgs; [ sqlite yarn npm ffmpeg ]);
           
         buildInputs = prev.buildInputs
-          ++ (with prev.pkgs; [ libssl libva libva2 libva-drm2 ]);
+          ++ (with prev.pkgs; [ openssl libva-full ]);
           
         nativeBuildInputs = prev.nativeBuildInputs ++ [ ];
 
